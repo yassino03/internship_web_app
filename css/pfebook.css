@@ -1,0 +1,72 @@
+/* PFE Books Page Specific Styles */
+
+/* Header Section */
+.header-section {
+    margin-bottom: 2rem;
+}
+
+/* Book Card Styles */
+.card {
+    height: 100%;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: contain;
+    padding: 1rem;
+    background: #f8f9fa;
+}
+
+.company-info {
+    color: #4a90e2;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* Tags */
+.tags {
+    margin: 1rem 0;
+}
+
+.tag {
+    display: inline-block;
+    background: #e9ecef;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Download Button */
+.btn-view {
+    display: inline-block;
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-view:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-decoration: none;
+}
+
+.btn-view:active {
+    transform: translateY(0);
+}
